@@ -1,3 +1,3 @@
 # kingokoin-frontend
 
-kingokoin-frontend (React)
+kingokoin-frontend
