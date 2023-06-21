@@ -1,15 +1,13 @@
 import React from "react";
 import logo from "../assets/main_logo_eng.png";
-import { FaSignOutAlt } from "react-icons/fa";
-import styles from "./Top1.module.css";
 
 function Top1(props) {
   return (
-    <div className={styles.container}>
-      <div className={styles.logoContainer}>
-        <img src={logo} alt="Logo" className={styles.logo} />
+    <div className="flex items-center h-28 pl-5 pr-5 bg-white">
+      <div className="p-5">
+        <img src={logo} alt="Logo" className="h-auto max-w-41 max-h-28" />
       </div>
-      <div className={styles.text}>
+      <div className="p-5 ml-auto text-right">
         소프트웨어학과&nbsp; | &nbsp;재학중&nbsp; | &nbsp;조승용&nbsp; |
       </div>
     </div>
