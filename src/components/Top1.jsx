@@ -1,31 +1,15 @@
 import React from "react";
 import logo from "../assets/main_logo_eng.png";
 import { FaSignOutAlt } from "react-icons/fa";
+import styles from "./Top1.module.css";
 
 function Top1(props) {
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        height: "110px",
-        paddingLeft: "60px",
-        paddingRight: "20px",
-        backgroundColor: "white",
-      }}
-    >
-      <div style={{ marginLeft: "10px" }}>
-        <img
-          src={logo}
-          alt="Logo"
-          style={{
-            height: "auto",
-            maxWidth: "165px ",
-            maxHeight: "110px ",
-          }}
-        />
+    <div className={styles.container}>
+      <div className={styles.logoContainer}>
+        <img src={logo} alt="Logo" className={styles.logo} />
       </div>
-      <div style={{ marginLeft: "auto", marginRight: "10px" }}>
+      <div className={styles.text}>
         소프트웨어학과&nbsp; | &nbsp;재학중&nbsp; | &nbsp;조승용&nbsp; |
       </div>
     </div>

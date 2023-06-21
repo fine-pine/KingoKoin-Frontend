@@ -40,7 +40,9 @@ function App() {
               <Top1 />
               <Top2 />
               <Sidebar>
-                <Page1 />
+                <div style={{ borderTopLeftRadius: "10px" }}>
+                  <Page1 />
+                </div>
               </Sidebar>
             </>
           }
