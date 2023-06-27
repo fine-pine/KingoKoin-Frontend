@@ -13,6 +13,8 @@ import Sidebar from "./components/Sidebar";
 import Top1 from "./components/Top1";
 import Top2 from "./components/Top2";
 
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -40,7 +42,7 @@ function App() {
               <Top1 />
               <Top2 />
               <Sidebar>
-                <div style={{ borderTopLeftRadius: "10px" }}>
+                <div  >
                   <Page1 />
                 </div>
               </Sidebar>
