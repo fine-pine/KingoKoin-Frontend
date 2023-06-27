@@ -38,7 +38,7 @@ const Sidebar = ({ children }) => {
               className="link flex gap-1 p-4 w-full items-center hover:"
             >
               <div className="icon">{item.icon}</div>
-              <div className="text-label link_text font-noto-sans-kr font-light">
+              <div className="text-label-l link_text font-noto-sans-kr font-light">
                 {item.name}
               </div>
             </NavLink>
