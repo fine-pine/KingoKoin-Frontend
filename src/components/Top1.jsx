@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/main_logo_eng.png";
 import { AiOutlineLogout } from "react-icons/ai";
 
-function Top1(props) {
+function Top1() {
   return (
     <div className="flex justify-between items-center bg-background px-16 py-8">
       <div className="flex items-center gap-4">

@@ -205,7 +205,7 @@ function Page2(props) {
   ];
 
   return (
-    <div className="font-noto-sans-kr bg-secondary">
+    <div className="font-noto-sans-kr bg-surface ">
       <Koins></Koins>
       <History list={list} />
       <h1 className="pl-8 font-medium text-[28px]">자주 물어보는 질문</h1>

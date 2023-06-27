@@ -12,7 +12,7 @@ function Page1(props) {
     <div>
       <div className="CoinNum flex justify-center">
         <div className="px-20 pt-20">
-          <span className="text-SKKU_GREEN text-6xl font-bold flex justify-center pb-10">
+          <span className="text-primary text-6xl font-bold flex justify-center pb-10">
             180
           </span>
           <div className="flex justify-center text-3xl pb-20">
@@ -20,7 +20,7 @@ function Page1(props) {
           </div>
         </div>
         <div className="px-20 pt-20">
-          <span className="text-SKKU_GREEN text-6xl font-bold flex justify-center pb-10">
+          <span className="text-primary text-6xl font-bold flex justify-center pb-10">
             240
           </span>
           <div className="flex justify-center text-3xl pb-20">
@@ -28,7 +28,7 @@ function Page1(props) {
           </div>
         </div>
         <div className="px-20 pt-20">
-          <span className="text-SKKU_GREEN text-6xl font-bold flex justify-center pb-10">
+          <span className="text-primary text-6xl font-bold flex justify-center pb-10">
             60
           </span>
           <div className="flex justify-center text-3xl">사용한 포인트</div>
